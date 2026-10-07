@@ -1,0 +1,4 @@
+# Bundle patch layer: load this package's main entry as a plain Cordis plugin.
+- insert:
+    - id: ste
+      name: dsh-ste
