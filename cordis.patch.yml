@@ -1,4 +1,4 @@
 # Bundle patch layer: load this package's main entry as a plain Cordis plugin.
 - insert:
-    - id: asd-100
-      name: asd-100
+    - id: dsh-asd-100
+      name: dsh-asd-100

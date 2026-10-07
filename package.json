@@ -1,5 +1,5 @@
 {
-  "name": "asd-100",
+  "name": "dsh-asd-100",
   "version": "0.1.0",
   "private": true,
   "description": "ASD-STE100 Simplified Technical English output mode for DSH. /ste on makes every reply and every document follow the simplified-English rules.",

@@ -1,4 +1,4 @@
-# ASD-100
+# dsh-ASD-100
 
 Forces ASD-STE100 Simplified Technical English on every reply and every document.
 
@@ -19,7 +19,7 @@ first and uses prose only.
 
 ## State
 
-The mode is one flag file: `~/.dsh/asd-100/.active`. The plugin reads it on every
+The mode is one flag file: `~/.dsh/dsh-asd-100/.active`. The plugin reads it on every
 request, so all sessions share the state and a change takes effect at once. To turn
 the mode off from outside the chat, delete the file.
 
@@ -35,11 +35,11 @@ Two optional fields, set in the bundle patch that loads the plugin:
 
 ```yaml
 - insert:
-    - id: asd-100
-      name: asd-100
+    - id: dsh-asd-100
+      name: dsh-asd-100
       config:
         skillDir: /path/to/simple-english   # default: ~/.agents/skills/simple-english
-        stateFile: /path/to/.active         # default: ~/.dsh/asd-100/.active
+        stateFile: /path/to/.active         # default: ~/.dsh/dsh-asd-100/.active
 ```
 
 ## Development
